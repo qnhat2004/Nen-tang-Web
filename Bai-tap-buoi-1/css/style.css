@@ -76,3 +76,7 @@ h2 {
     font-weight: bold;
     border-radius: 3%;
 }
+
+.special {
+    color: yellow;
+}
