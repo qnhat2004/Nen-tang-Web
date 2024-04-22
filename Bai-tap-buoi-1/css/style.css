@@ -1,0 +1,28 @@
+body {
+    background-color: #f3e9ff;
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    color: #562fc7;
+    text-align: center;
+    font-size: 350%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
