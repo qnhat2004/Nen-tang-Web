@@ -80,13 +80,15 @@ h2 {
 .special {
     color: yellow;
     position: relative;
+    padding-left: 10px;
 }
 
 .special::before {
     content: "";
-    display: inline-block;
-    width: 4px;
-    height: 100%;
-    background-color: yellow;
-    margin-right: 5px; /* Khoảng cách giữa đường kẻ và văn bản */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background-color: #f0d356;
 }
