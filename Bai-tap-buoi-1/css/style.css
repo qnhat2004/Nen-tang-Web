@@ -1,11 +1,10 @@
 body {
-    background-color: #f3e9ff;
-    
+    background-color: #f3e9ff;  
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium';
-    color: #562fc7;
+    color: #5535b2;
     text-align: center;
     font-size: 350%;
 }
@@ -20,9 +19,60 @@ img {
     height: 20%;
 }
 
-/* Tooltip container */
-.tooltip {
-    position: relative;
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-content {
+    background-color: #774ad8;
+    padding: 3%;
+    margin-top: 5%;
+    color: white;
+    width: fit-content;
+    border-radius: 3%;
+}
+
+button {
+    background-color: #f9c927;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7%;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    font-size: small;
+    margin: auto;
+    border: none;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+#btn {
+    margin-top: 1.4%;
+    width: fit-content;
+}
+
+p {
+    font-family: 'Segoe UI';
+}
+
+h2 {
+    font-family: Segoe UI;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.bg_color-yellow {
+    background-color: #fceeaa;
+    color: rgb(46, 44, 44);
+    font-weight: bold;
+    border-radius: 3%;
 }
