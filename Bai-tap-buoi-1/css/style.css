@@ -79,4 +79,14 @@ h2 {
 
 .special {
     color: yellow;
+    position: relative;
+}
+
+.special::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 100%;
+    background-color: yellow;
+    margin-right: 5px; /* Khoảng cách giữa đường kẻ và văn bản */
 }
