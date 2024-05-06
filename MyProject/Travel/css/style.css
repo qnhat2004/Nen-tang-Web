@@ -9,25 +9,29 @@
   filter: brightness(0.9);
   background-size: cover;
   background-position: center;
+  transition: 0.2s ease;
+  overflow: hidden;
 }
 .home-page .navbar {
   width: 100%;
-  margin: 0;
-  padding: 35px 0;
+  padding: 15px 0 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Open-sans;
-  position: sticky;
+  font-family: Quicksand, sans-serif;
+  position: fixed;
   top: 0;
   transition: background-color 0.2s ease;
+  z-index: 1000;
 }
 .home-page .navbar ul li {
+  cursor: pointer;
   list-style: none;
   display: inline-block;
   margin-left: 60px;
   color: rgb(255, 255, 255);
   font-size: 16.2px;
+  position: relative;
 }
 .logo {
   width: 120px;
@@ -37,9 +41,6 @@
   margin-right: 100px;
   margin-left: 20px;
 }
-.contact {
-  padding-top: 700px;
-}
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -48,10 +49,43 @@
 .home-page .line1 {
   position: absolute;
   color: white;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  top: 250px; 
+  left: 100px;
+  width: 100%;
 }
+.home-page .line2 {
+  position: absolute;
+  color: white;
+  top: 350px; 
+  left: 103px;
+  width: 100%;
+  font-size: 25px;
+}
+.home-page .navbar ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.2s ease;
+}
+.home-page .navbar ul li:hover::after {
+  width: 100%;
+}
+.call-us {
+  padding: 10%;
+  display: flex;
+}
+.call-us text {
+  flex: 0 0 60%;
+}
+
+.call-us .vid video{
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 200px;
+  padding-bottom: 10px;
+} 
