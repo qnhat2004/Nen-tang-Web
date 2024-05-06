@@ -11,7 +11,7 @@
   background-position: center;
 }
 .home-page .navbar {
-  width: 85%;
+  width: 100%;
   margin: 0;
   padding: 35px 0;
   display: flex;
@@ -20,22 +20,38 @@
   font-family: Open-sans;
   position: sticky;
   top: 0;
+  transition: background-color 0.2s ease;
 }
 .home-page .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin-right: 60px;
-  color: white;
+  margin-left: 60px;
+  color: rgb(255, 255, 255);
   font-size: 16.2px;
 }
 .logo {
   width: 120px;
   cursor: pointer;
-  color: white;
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   margin-right: 100px;
   margin-left: 20px;
 }
 .contact {
   padding-top: 700px;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.home-page .line1 {
+  position: absolute;
+  color: white;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
