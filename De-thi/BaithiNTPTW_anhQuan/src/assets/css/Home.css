@@ -1,0 +1,23 @@
+.container-main{
+
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2%;
+}
+.f-content{
+  margin-top: 12px;
+}
+.s-content{
+  margin-top: 12px;
+
+}
+.t-content{
+  margin-top: 12px;
+
+}
+
+.t-content p {
+  padding-bottom: 18px;
+  font-size: 14px;
+}

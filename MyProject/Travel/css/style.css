@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  box-sizing: border-box;
+  top: 300px;
+  left: auto;
+}
+
+#page-logo {
+  background-color: antiquewhite;
+}
+
+#page-logo a {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 10px;
+  text-decoration: dashed;
+}
+
+header nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: end;
+}
+
+header nav ul {
+  list-style-type: none;
+  background-color: rgb(250, 215, 248);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero-content {
+  width: 900px;
+  padding: 50x 0;
+  position: relative;
+  top: 900px auto;
+}
