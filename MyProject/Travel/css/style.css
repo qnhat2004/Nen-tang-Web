@@ -14,7 +14,7 @@
 }
 .home-page .navbar {
   width: 100%;
-  padding: 15px 0 20px 0;
+  padding: 15px 0 25px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,17 +75,40 @@
 .home-page .navbar ul li:hover::after {
   width: 100%;
 }
+
 .call-us {
-  padding: 10%;
+  padding: 5%;
   display: flex;
 }
 .call-us text {
   flex: 0 0 60%;
+  margin-left: 5%;
 }
-
+.call-us .text p, h3 {
+  text-align: center;
+}
+.call-us .vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
 .call-us .vid video{
   position: relative;
   box-sizing: border-box;
-  border-radius: 200px;
   padding-bottom: 10px;
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 2%;
+  margin-left: 10%;
+  /* top: 0;
+  left: 0 */
 } 
+.call-us .text .other {
+  color: rgb(23, 22, 22);
+  opacity: 0.7;
+  font-family: Quicksand, sans-serif;
+  width: 100%;
+  padding-top: 20px;
+}

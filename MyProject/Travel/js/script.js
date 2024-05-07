@@ -19,7 +19,6 @@ window.onscroll = function () {
         });
     }
 };
-
 navbar.addEventListener('mouseover', function() {
     navbar.style.backgroundColor = "white";
     logo.style.color = "black";
@@ -28,3 +27,7 @@ navbar.addEventListener('mouseover', function() {
         link.classList.add("hovered");
     });
 });
+window.onload = function() {
+    var video = document.querySelector('.call-us .vid video');
+    video.playbackRate = 1.5; // 1.5 times the normal speed
+};
